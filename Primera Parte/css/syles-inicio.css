@@ -3,7 +3,7 @@
   height: 65vh;
   background-image: 
     linear-gradient(rgba(0,0,0,0.6)),
-    url("/images/inicio/luna-park.jpg");
+    url("/Primera\ Parte/images/inicio/luna-park.jpg");
   background-position: center 30%;
   display: flex;
   flex-direction: column;
@@ -36,14 +36,6 @@
   color: #333333;
 
 }
-
-/* .info h1{
-
-  text-decoration: underline;
-  text-underline-offset: 0.7rem;
-  text-decoration-thickness: 0.125rem;
-
-} */
 
 .video{
 
