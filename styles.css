@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&display=swap');
+
+/* ===== ESTILOS GENERALES ===== */
+
+* {
+
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  /* border: 1px solid green; */
+  
+}
+
+html, body {
+
+  min-height: 100%;
+  margin: 0;
+  background: linear-gradient(to bottom, #e5e5e5, #b5b5b5);
+
+}
+
+a {
+
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+/* ===== HEADER ===== */
+header {
+
+  margin: 0;
+  height: 12vh;
+  background-color: #333333;
+
+}
+
+header ul {
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+
+}
+
+header a {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  color: #e5e5e5;
+  font-weight: 700;
+  border-bottom: 0px solid currentColor;
+  transition: border-bottom-width 0.25s ease, color 0.25s ease;
+
+}
+
+header .actual {
+
+  border-bottom: 6px solid currentColor;
+  color: #f20100;
+
+}
+
+header .opcion:hover {
+
+  border-bottom-width: 6px;
+  color: #f20100;
+
+}
+
+/* ===== FOOTER ===== */
+footer {
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 25vh;
+  background-color: #333333;
+
+}
+
+footer article {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  background: linear-gradient(rgba(255,255,255,0.35), rgba(255,255,255,0.35));
+  background-repeat: no-repeat;
+  background-size: 1px 75%; 
+  background-position: right center;
+
+}
+
+footer h3 {
+
+  margin: 0.3rem;
+  color: #e5e5e5;
+  font-weight: 500;
+  font-size: 0.9rem;
+
+}
+
+footer p {
+
+  margin: 0;
+  color: #e5e5e5;
+  font-weight: 300;
+  font-size: 0.7rem;
+
+}
+
+.plataformas nav {
+
+  display: flex;
+
+}
+
+.plataformas a {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e5e5;
+  font-weight: 300;
+  font-size: 0.75rem;
+
+}
+
+.plataformas a p {
+
+  margin: 0 0.6rem 0 0.18rem;
+
+}
+
+.plataformas .ultimo {
+
+  margin: 0 0 0 0.18rem; 
+
+}
