@@ -292,3 +292,35 @@ tbody tr:last-child td {
   border-bottom: 1.5px solid #33333399;
 
 }
+
+
+@media (max-width: 992px) {
+  main {
+    margin: 3% 6%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 3% 4%;
+  }
+
+  .indice ul {
+    flex-wrap: wrap;
+    gap: 0.8rem 1.2rem;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .indice a {
+    font-size: 1rem;
+  }
+
+  #resumen {
+    overflow-x: auto;
+  }
+
+  #resumen table {
+    min-width: 760px;
+  }
+}

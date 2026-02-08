@@ -96,3 +96,31 @@ li::marker {
   color: #b2211c;
 
 }
+
+@media (max-width: 992px) {
+  main {
+    margin: 3% 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 3% 5%;
+  }
+
+  .indice ul {
+    flex-wrap: wrap;
+    gap: 0.8rem 1.2rem;
+    justify-content: center;
+  }
+
+  .presentaciones-vivo img,
+  .aprendizaje img,
+  .premios-reconocimientos img {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem;
+    max-width: 100%;
+    height: auto;
+  }
+}
