@@ -1,7 +1,7 @@
 .banner {
 
   height: 65vh;
-  background-image: 
+  background-image:
     linear-gradient(rgba(0,0,0,0.6)),
     url("/Primera\ Parte/images/inicio/luna-park.jpg");
   background-position: center 30%;
@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   color: #e5e5e5;
-  
+
 }
 
 .banner h1{
@@ -20,7 +20,7 @@
   font-weight: 800;
   letter-spacing: -0.07rem;
 
-} 
+}
 
 .banner p{
 
@@ -28,11 +28,12 @@
   font-size: 0.8rem;
   font-weight: 300;
 
-} 
+}
 
 .info{
 
-  margin: 7vh 40vh;
+  margin: 7vh auto;
+  max-width: 80rem;
   color: #333333;
 
 }
@@ -41,5 +42,36 @@
 
   display: flex;
   justify-content: center;
+  max-width: 560px;
 
+}
+
+@media (max-width: 992px) {
+  .banner h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    height: 55vh;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner p {
+    font-size: 0.75rem;
+  }
+
+  .info {
+    margin: 5vh auto;
+  }
+
+  .video {
+    max-width: 100%;
+  }
 }

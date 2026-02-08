@@ -144,3 +144,32 @@ footer p {
   margin: 0 0 0 0.18rem; 
 
 }
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+
+  header ul {
+    min-height: 12vh;
+  }
+
+  header a {
+    min-height: 3.5rem;
+    flex: 0 0 50%;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  footer article {
+    min-height: 8rem;
+    background-size: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+  }
+
+  footer article:last-child {
+    border-bottom: 0;
+  }
+}
